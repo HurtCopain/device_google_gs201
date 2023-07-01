@@ -18,7 +18,7 @@ include device/google/gs-common/device.mk
 
 TARGET_BOARD_PLATFORM := gs201
 
-TENSOR_PIXEL2 := true
+TARGET_IS_PIXEL_7 := true
 
 AB_OTA_POSTINSTALL_CONFIG += \
 	RUN_POSTINSTALL_system=true \
